@@ -1,43 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steve CV</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="title">
+      
+      <div class="card">
+        <div class="icon">
+          <img src="profile.jpg" alt="Profile picture" class="profile" />
+        </div>
+    
+        <div class="content">
+            <h3>Link</h3>
+            <p>
+              <ul class="card-social">
+                <li class="card-social__item">
+                  <a href="https://github.com/stevigno">
+                    <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" >
+                    <path d="M950.930286 512q0 143.433143-83.748571 257.974857t-216.283429 158.573714q-15.433143 2.852571-22.601143-4.022857t-7.168-17.115429l0-120.539429q0-55.442286-29.696-81.115429 32.548571-3.437714 58.587429-10.313143t53.686857-22.308571 46.299429-38.034286 30.281143-59.977143 11.702857-86.016q0-69.12-45.129143-117.686857 21.138286-52.004571-4.534857-116.589714-16.018286-5.12-46.299429 6.290286t-52.589714 25.161143l-21.723429 13.677714q-53.174857-14.848-109.714286-14.848t-109.714286 14.848q-9.142857-6.290286-24.283429-15.433143t-47.689143-22.016-49.152-7.68q-25.161143 64.585143-4.022857 116.589714-45.129143 48.566857-45.129143 117.686857 0 48.566857 11.702857 85.723429t29.988571 59.977143 46.006857 38.253714 53.686857 22.308571 58.587429 10.313143q-22.820571 20.553143-28.013714 58.88-11.995429 5.705143-25.746286 8.557714t-32.548571 2.852571-37.449143-12.288-31.744-35.693714q-10.825143-18.285714-27.721143-29.696t-28.306286-13.677714l-11.410286-1.682286q-11.995429 0-16.603429 2.56t-2.852571 6.582857 5.12 7.972571 7.460571 6.875429l4.022857 2.852571q12.580571 5.705143 24.868571 21.723429t17.993143 29.110857l5.705143 13.165714q7.460571 21.723429 25.161143 35.108571t38.253714 17.115429 39.716571 4.022857 31.744-1.974857l13.165714-2.267429q0 21.723429 0.292571 50.834286t0.292571 30.866286q0 10.313143-7.460571 17.115429t-22.820571 4.022857q-132.534857-44.032-216.283429-158.573714t-83.748571-257.974857q0-119.442286 58.88-220.306286t159.744-159.744 220.306286-58.88 220.306286 58.88 159.744 159.744 58.88 220.306286z"></path>
+                  </svg>
+                  </a>
+                </li>
+                <li class="card-social__item">
+                  <a href="https://linkedin.com/in/steveblondo22">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M19.547 3c.406 0 .75.133 1.031.398.281.266.422.602.422 1.008v15.047c0 .406-.14.766-.422 1.078a1.335 1.335 0 0 1-1.031.469h-15c-.406 0-.766-.156-1.078-.469C3.156 20.22 3 19.86 3 19.453V4.406c0-.406.148-.742.445-1.008C3.742 3.133 4.11 3 4.547 3h15zM8.578 18V9.984H6V18h2.578zM7.36 8.766c.407 0 .743-.133 1.008-.399a1.31 1.31 0 0 0 .399-.96c0-.407-.125-.743-.375-1.009C8.14 6.133 7.813 6 7.406 6c-.406 0-.742.133-1.008.398C6.133 6.664 6 7 6 7.406c0 .375.125.696.375.961.25.266.578.399.984.399zM18 18v-4.688c0-1.156-.273-2.03-.82-2.624-.547-.594-1.258-.891-2.133-.891-.938 0-1.719.437-2.344 1.312V9.984h-2.578V18h2.578v-4.547c0-.312.031-.531.094-.656.25-.625.687-.938 1.312-.938.875 0 1.313.578 1.313 1.735V18H18z"></path>
+                    </svg>
+                  </a>
+                </li>
+            </ul>
+            </p>
+        </div>
+      </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      <h1>Expérience</h1>
+      <h1 class="colored">professionnelle</h1>
+      <div class="scroll">scroll</div>
+    </div>
+    <div id="content">
+      <div class="step">
+        <h2>Developpeur Full Stack</h2>
+        <h3>Master Student • 2022 &rarr; Actuel</h3>
+        <p>
+          Développeur full stack junior passionné de python, Javascript, Php 
+          et je vous invite q inspecté mon github.
+          Développement d'un site web E-commerce avec Django, 
+          de quelques SPA en React, Angular et API REST avec Flash
+        </p>
+      </div>
+
+      <div class="step">
+        <h2>Internship developer</h2>
+        <h3>CCA-BANK • 2018 &rarr; 2019</h3>
+        <p>
+          Assistance a la correction des bugs et conception des models de landipage.
+        </p>
+      </div>
+
+      <div class="step">
+        <h2>My Story</h2>
+        <h3>Cameroun • 1997 &rarr; Actuel</h3>
+        <p>
+          Bonjour moi c'est Steve Blondo, jeune Camerounais passionne de nouvelles technologies.
+          Mon histoire à ce jour est très longue et si vous mourez d'envie d'avoir une histoire
+          Croustillan à propos de moi ... bref je n'ai pas grand-chose à dire sinon, 
+          <p>
+          donné moi une
+            <a href="https://linkedin.com/in/steveblondo22" class="linkin">
+                <span class="actual-text">&nbsp;Chance&nbsp;</span>
+                <span class="hover-text" aria-hidden="true">&nbsp;Chance&nbsp;</span>
+            </a>
+          </p>
+          
+          Merci
+        </p>
+      </div>
+
+      <div class="step">
+        <div class="final">
+          <div class="vcard">
+              <h2>Skill :</h2>
+              <p class="degr">
+                Python - PHP - Javascript
+              </p>
+              <h2>Framework :</h2>
+              <p>
+                Flash - Django - 
+                Codeigniter - React js-
+                CakePhp
+              </p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
   </body>
+  <script type="module" src="/main.js"></script>
 </html>
