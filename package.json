@@ -1,5 +1,6 @@
 {
   "name": "blondo",
+  "homepage": "https://stevigno.github.io/blondo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
