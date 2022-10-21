@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/blondo/static/css/main.90f3be8b.css",
+    "main.js": "/blondo/static/js/main.d3356870.js",
+    "static/media/finpro.jpg": "/blondo/static/media/finpro.45c6d56e131f788c0545.jpg",
+    "index.html": "/blondo/index.html",
+    "main.90f3be8b.css.map": "/blondo/static/css/main.90f3be8b.css.map",
+    "main.d3356870.js.map": "/blondo/static/js/main.d3356870.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90f3be8b.css",
+    "static/js/main.d3356870.js"
+  ]
+}
